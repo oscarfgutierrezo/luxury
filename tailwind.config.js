@@ -13,6 +13,7 @@ export default {
         orange: "#fcac00",
         red: "#fe4d2e",
         gainsboro: "#ddd",
+        "dark-grey": "#252525",
       },
     },
   },

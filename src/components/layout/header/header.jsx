@@ -17,10 +17,10 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="relative p-5 flex justify-between">
+    <header className="relative p-5 flex justify-between sm:px-10">
       <Link to="/">
         <img
-          className="h-20 lg:h-24 xl:h-32"
+          className="h-14 xs:h-20 lg:h-28 xl:h-32"
           src={logoMvp}
           alt="Logo MVP Miami"
         />
