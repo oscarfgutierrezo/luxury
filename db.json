@@ -1,0 +1,100 @@
+{
+  "rentals": [
+    {
+      "id": 1,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/4/main/f/Used-2019-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2019,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 2,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/46/main/f/Used-2020-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2020,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 3,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/44/main/f/Used-2020-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2020,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 4,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/61/main/f/Used-2020-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2020,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 5,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/75/main/f/Used-2019-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2019,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 6,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/80/main/f/Used-2020-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2020,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 7,
+      "name": "Rolls Royce Cullinan",
+      "img": "https://www.mvpmiami.com/imagetag/102/main/f/Used-2020-ROLLS-ROYCE-CULLINAN.jpg",
+      "price": 1899,
+      "year": 2020,
+      "text": "No list of luxury cars is complete without an entrant from Rolls-Royce, is it? The legendary luxury automaker would have been left off this list of the most luxurious SUVs a few years ago, when they o"
+    },
+    {
+      "id": 8,
+      "name": "Mercedes-Benz Sprinter",
+      "img": "https://www.mvpmiami.com/imagetag/6/main/f/Used-2017-MERCEDES-BENZ-SPRINTER.jpg",
+      "price": 1499,
+      "year": 2017,
+      "text": "- Western sprinter build - 7 place seating - Starlight headliner - Driver provided"
+    },
+    {
+      "id": 9,
+      "name": "Lamborghini Aventador LP 740-4 S",
+      "img": "https://www.mvpmiami.com/imagetag/45/main/f/Used-2018-LAMBORGHINI-AVENTADOR-LP-740-4-S.jpg",
+      "price": 1499,
+      "year": 2018,
+      "text": "OverviewBrutally powerful and obscenely flamboyant, this Aventador rental is unburdened by reality. Crazy expensive and crazy fast, its capable of amazing performance without feeling like its going"
+    },
+    {
+      "id": 10,
+      "name": "Rolls Royce Dawn",
+      "img": "https://www.mvpmiami.com/imagetag/7/main/f/Used-2016-ROLLS-ROYCE-DAWN.jpg",
+      "price": 1299,
+      "year": 2016,
+      "text": "Luxurious, exclusive, exquisite . . . take your pick of adjectives for the lovely Dawn and any one of them will suffice. With the bones of a Wraith coupe, the Dawn has sheetmetal that curves and swoop"
+    },
+    {
+      "id": 11,
+      "name": "Lamborghini Urus",
+      "img": "https://www.mvpmiami.com/imagetag/14/main/f/Used-2019-LAMBORGHINI-URUS.jpg",
+      "price": 1499,
+      "year": 2019,
+      "text": "The Urus arrives surfing on the wave of an SUV explosion.The doors swing open they feel lighter than a big SUVs usually do; the frameless windows, see. The interior is more swooping and extravagan"
+    },
+    {
+      "id": 12,
+      "name": "Rolls Royce Dawn",
+      "img": "https://www.mvpmiami.com/imagetag/25/main/f/Used-2018-ROLLS-ROYCE-DAWN.jpg",
+      "price": 1299,
+      "year": 2018,
+      "text": "OverviewLuxurious, exclusive, exquisite . . . take your pick of adjectives for the lovely Dawn and any one of them will suffice. With the bones of a Wraith coupe, the Dawn has sheetmetal that curves"
+    }
+  ]
+}

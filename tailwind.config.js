@@ -14,6 +14,7 @@ export default {
         red: "#fe4d2e",
         gainsboro: "#ddd",
         "dark-grey": "#252525",
+        grey: "#323232",
       },
     },
   },
