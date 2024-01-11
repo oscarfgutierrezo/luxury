@@ -1,10 +1,11 @@
-import { Navbar } from "../components/navbar/navbar";
+import { Layout } from "../components/layout/layout";
 
 export const AboutUs = () => {
   return (
     <>
-      <Navbar />
-      <h2>About Us</h2>
+      <Layout>
+        <h2>About Us</h2>
+      </Layout>
     </>
   );
 };

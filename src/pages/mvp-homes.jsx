@@ -1,10 +1,11 @@
-import { Navbar } from "../components/navbar/navbar";
+import { Layout } from "../components/layout/layout";
 
 export const MvpHomes = () => {
   return (
     <>
-      <Navbar />
-      <h2>MVP Exclusive Homes</h2>
+      <Layout>
+        <h2>MVP Exclusive Homes</h2>
+      </Layout>
     </>
   );
 };

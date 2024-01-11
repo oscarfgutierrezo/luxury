@@ -1,10 +1,11 @@
-import { Navbar } from "../components/navbar/navbar";
+import { Layout } from "../components/layout/layout";
 
 export const Faq = () => {
   return (
     <>
-      <Navbar />
-      <h2>Faq</h2>
+      <Layout>
+        <h2>Faq</h2>
+      </Layout>
     </>
   );
 };
