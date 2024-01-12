@@ -17,15 +17,20 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className="relative p-5 flex justify-between sm:px-10">
+    <header className="relative p-5 flex justify-between items-center xs:px-7 sm:px-10">
       <Link to="/">
-        <img
-          className="h-14 xs:h-20 lg:h-28 xl:h-32"
-          src={logoMvp}
-          alt="Logo MVP Miami"
-        />
+        <img className="h-16 md:h-20" src={logoMvp} alt="Logo MVP Miami" />
       </Link>
-      <div className="flex flex-col justify-between gap-3">
+      <div>
+        <div className="flex justify-end lg:hidden">
+          <HamburgerBtn menuIsOpen={menuIsOpen} setMenuIsOpen={setMenuIsOpen} />
+          <Navbar menuIsOpen={menuIsOpen} />
+        </div>
+        <div className="hidden lg:block">
+          <NavbarFull />
+        </div>
+      </div>
+      {/* <div className="flex flex-col justify-between gap-3">
         <div className="flex flex-col items-end md:flex-row-reverse md:items-start md:gap-5">
           <InfoLink
             path="#"
@@ -45,7 +50,7 @@ export const Header = () => {
         <div className="hidden lg:block">
           <NavbarFull />
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

@@ -7,28 +7,16 @@ export const Home = () => {
   return (
     <>
       <Layout>
-        <section className="grid grid-cols-1 gap-y-5 lg:grid-cols-2 bg-dark-grey">
-          <div className="col-span-1 relative min-h-[200px] lg:col-span-2">
-            <BannerHome
-              imgName="inventary-home"
-              text="View all inventary"
-              link="/rentals"
-            />
-          </div>
-          <div className="col-span-1 relative h-[400px]">
-            <BannerHome
-              imgName="rentals-home"
-              text="View exclusive rentals"
-              link="/rentals"
-            />
-          </div>
-          <div className="col-span-1 relative h-[400px]">
-            <BannerHome
-              imgName="reserve-home"
-              text="Reserve now"
-              link="/about-us"
-            />
-          </div>
+        <section>
+          <BannerHome
+            imgName="mercedes-home"
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              maiores nobis incidunt fugit dolorum animi sequi. Incidunt placeat
+              repellat possimus dolore facere, inventore labore officia alias
+              itaque dicta quisquam atque?"
+            textBtn="View all inventary"
+            link="/rentals"
+          />
         </section>
         <section className="px-5 py-14 bg-gainsboro sm:px-10">
           <h2 className="pb-5 text-4xl uppercase">About Us</h2>

@@ -2,7 +2,7 @@ export const linksData = [
   {
     name: "Home",
     path: "/",
-    image: true,
+    image: false,
     imagePath: "/src/assets/images/menuHome.png",
   },
   {
