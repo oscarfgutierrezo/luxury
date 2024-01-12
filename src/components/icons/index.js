@@ -3,3 +3,8 @@ export * from "./phone-icon";
 export * from "./hamburguer-icon";
 export * from "./share-icon";
 export * from "./message-icon";
+export * from "./hand-icon";
+export * from "./link-icon";
+export * from "./mark-icon";
+export * from "./star-icon";
+export * from "./succeed-icon";

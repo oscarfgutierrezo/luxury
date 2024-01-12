@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { LinkBtn } from "../link-btn";
 
 export const BannerHome = ({ imgName, text, link, textBtn }) => {
   const path = (size) => {
@@ -24,12 +24,7 @@ export const BannerHome = ({ imgName, text, link, textBtn }) => {
         <div className="w-1/3 h-max overflow-hidden">
           <p className="text-ellipsis line-clamp-5 lg:text-lg">{text}</p>
         </div>
-        <Link
-          to={link}
-          className="w-max px-5 py-1 text-lg font-medium text-orange border border-orange bg-black/40 rounded-full hover:text-white hover:border-white transition-all duration-500 sm:py-2 sm:bottom-8"
-        >
-          {textBtn}
-        </Link>
+        <LinkBtn path={link} text={textBtn} />
       </div>
     </div>
   );
