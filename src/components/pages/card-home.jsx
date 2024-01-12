@@ -6,16 +6,16 @@ export const CardHome = ({ link, text, title, imgName }) => {
   };
 
   return (
-    <Link to={link} className="w-full block relative overflow-hidden">
-      <img
-        className="w-full transition-all duration-700 hover:scale-110"
-        src={path()}
-        alt=""
-      />
-      <div className="absolute top-10 left-10 text-orange font-seravekmedium font-bold uppercase md:top-5 md:left-5 lg:top-10 lg:left-10">
-        <p>{text}</p>
-        <p className="pt-5 text-3xl md:text-2xl lg:text-3xl">{title}</p>
-      </div>
-    </Link>
+    <>
+      <Link className="max-w-[400px] min-w-[300px]" to={link}>
+        <img
+          className="mb-3 w-full rounded-xl object-cover"
+          src={path()}
+          alt=""
+        />
+        <h3 className="pb-2 text-3xl text-center">{title}</h3>
+        <p className="text-center text-grey opacity-90">{text}</p>
+      </Link>
+    </>
   );
 };

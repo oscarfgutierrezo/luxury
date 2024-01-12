@@ -18,7 +18,7 @@ export const Home = () => {
             link="/rentals"
           />
         </section>
-        <section className="px-5 py-14 bg-gainsboro sm:px-10">
+        {/* <section className="px-5 py-14 bg-gainsboro sm:px-10">
           <h2 className="pb-5 text-4xl uppercase">About Us</h2>
           <p className="pb-5 leading-8 text-[#1c1c1c]">
             MVP Exotics is Miami’s premiere luxury rental platform. MVP is known
@@ -33,25 +33,25 @@ export const Home = () => {
           >
             Read More
           </Link>
-        </section>
-        <section className="flex flex-col md:flex-row">
+        </section> */}
+        <section className="px-5 py-10 flex flex-row flex-wrap justify-center gap-10 md:flex-row bg-gainsboro">
           <CardHome
             link="/mvp-yachts"
             title="Yacht Rentals"
-            text="Browser our"
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati reiciendis aperiam vero ea nisi accusantium expedita laboriosam eos tempore quasi odio, eligendi, dolorem aut alias magnam, laborum ipsam voluptate vitae."
             imgName="yacht-home"
           />
           <CardHome
             link="/mvp-homes"
             title="Mansion Rentals"
-            text="View"
-            imgName="mansions-home"
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati reiciendis aperiam vero ea nisi accusantium expedita laboriosam eos tempore quasi odio, eligendi, dolorem aut alias magnam, laborum ipsam voluptate vitae."
+            imgName="mansion-home"
           />
           <CardHome
             link="/rentals"
-            title="Next Exotic"
-            text="Rent your"
-            imgName="exotic-home"
+            title="Vehicles Rentals"
+            text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati reiciendis aperiam vero ea nisi accusantium expedita laboriosam eos tempore quasi odio, eligendi, dolorem aut alias magnam, laborum ipsam voluptate vitae."
+            imgName="car-home"
           />
         </section>
       </Layout>
